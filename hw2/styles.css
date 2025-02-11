@@ -1,1 +1,221 @@
-/* Add your code here */
+/* Colors */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --background-color: #f4f4f4;
+  --link-hover-color: #e74c3c;
+  --button-hover-color: #2980b9;
+  --card-background-color: white;
+  --card-border-color: #ddd;
+}
+
+/* Global styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+/* Navbar styling */
+header {
+  background-color: var(--primary-color);
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5;
+  padding: 5;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Section styling */
+section {
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+}
+
+h2 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+/* Cards Section styling */
+.card {
+  background-color: var(--card-background-color);
+  border: 1px solid var(--card-border-color);
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #333;
+}
+
+.card button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Table styling */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.Channels {
+  color: white;
+  font-weight: bold;
+  background-color: purple;
+  text-align: center;
+}
+
+table th {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Form styles */
+#form {
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+/* Form Title */
+#form h2 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Form Input Field Titles */
+form label {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid black;
+  font-size: 14px;
+  background-color: white;
+}
+
+/* Radio button styling */
+fieldset {
+  margin-top: 10px;
+}
+
+/* Form Submit button styling */
+button[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 15px 65px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="reset"] {
+  background-color: white;
+  color: black;
+  padding: 15px 65px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+/*  Hover effects */
+nav ul li a:hover {
+  color: var(--link-hover-color); /* Hover effect */
+}
+
+button[type="submit"]:hover {
+  /* Form Submit Button */
+  background-color: rgb(96, 2, 96);
+}
+
+button[type="reset"]:hover {
+  /* Form Reset Button */
+  background-color: grey;
+}
+
+.card button:hover {
+  /* Card Button */
+  background-color: var(--button-hover-color); /* Hover effect on buttons */
+}
+
+tr:hover {
+  /* Table Hover Effect */
+  background-color: rgb(212, 139, 29);
+  color: black;
+}
+
+tr:hover .Channels {
+  /* Table Hover Effect for Channels */
+  background-color: rgb(96, 2, 96);
+}
+
+.card:hover {
+  /* Hover lift effect for cards */
+  transform: translateY(-10px);
+}
+
+/* Scroll Smoothing */
+html {
+  scroll-behavior: smooth;
+}
