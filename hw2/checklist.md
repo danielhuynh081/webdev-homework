@@ -4,16 +4,18 @@ Prior to turning in your assignment, complete the following checklist in regards
 
 #### Accessibility Code Check
 
-- [ ] Use the Wave AIM browser extension to run an accessibility audit on your completed solutions.
+- [x ] Use the Wave AIM browser extension to run an accessibility audit on your completed solutions.
+
+## I had issues running the extnesions, it wouldn say please use a valid url for lightlhouse and then wave AIM wouldnt open
 
 #### Valid Code Check
 
-- [ ] Check that your HTML code is valid using the w3c validator.
-- [ ] Check that your CSS code is valid using the w3c validator.
+- [x] Check that your HTML code is valid using the w3c validator.
+- [x] Check that your CSS code is valid using the w3c validator.
 
 #### CSS Specific Code
 
-- [ ] The CSS code should primarily use classes to assign styles to elements.
+- [x] The CSS code should primarily use classes to assign styles to elements.
 - [ ] Make sure to use the custom properties specified in the styles.css file.
 - [ ] Review the code submitted against the [CSS code style guide](https://github.com/airbnb/css#css), which outlines how CSS code should be written.
 

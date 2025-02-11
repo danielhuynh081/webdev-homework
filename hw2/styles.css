@@ -1,12 +1,11 @@
 /* Colors */
 :root {
   --primary-color: #3498db;
-  --secondary-color: #2ecc71;
+
   --background-color: #f4f4f4;
   --link-hover-color: #e74c3c;
   --button-hover-color: #2980b9;
   --card-background-color: white;
-  --card-border-color: #ddd;
 }
 
 /* Global styling */
@@ -35,7 +34,7 @@ nav ul li {
   margin: 0 20px;
 }
 
-nav ul li a {
+.nav-links {
   color: white;
   text-decoration: none;
   font-size: 24px;
@@ -134,7 +133,7 @@ table th {
 }
 
 /* Form Input Field Titles */
-form label {
+.form-label {
   display: block;
   margin-top: 10px;
   font-size: 16px;
@@ -142,10 +141,7 @@ form label {
 }
 
 /* Input fields */
-form input[type="text"],
-form input[type="email"],
-form input[type="password"],
-form input[type="date"] {
+.form-input {
   width: 100%;
   padding: 8px;
   margin-top: 5px;
@@ -159,8 +155,13 @@ fieldset {
   margin-top: 10px;
 }
 
+fieldset label {
+  display: block; /* Make each label take up the full width */
+  margin-bottom: 10px; /* Add space between the labels */
+}
+
 /* Form Submit button styling */
-button[type="submit"] {
+.button-submit {
   background-color: black;
   color: white;
   padding: 15px 65px;
@@ -170,7 +171,7 @@ button[type="submit"] {
   transition: background-color 0.3s ease;
 }
 
-button[type="reset"] {
+.button-reset {
   background-color: white;
   color: black;
   padding: 15px 65px;
@@ -180,7 +181,7 @@ button[type="reset"] {
   transition: background-color 0.3s ease;
 }
 /*  Hover effects */
-nav ul li a:hover {
+.nav-links:hover {
   color: var(--link-hover-color); /* Hover effect */
 }
 
