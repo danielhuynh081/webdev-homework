@@ -16,7 +16,7 @@ Updated code:
 <button class="more-info-button" aria-label="More Info">More Info</button>
 ```
 
-### Issue 2: Improper Div Elements
+### Issue #2: Improper Div Elements
 
 I noticed that there were no section elements in the file but there were many div classes that had the word section in them.
 i think it would be better to use the section element because since it logically represents a section of the page it wouldmake more sense. I also think putting history, intro, and characteristics should be in section tags as well.
@@ -96,7 +96,7 @@ updated code 2:
 </section>
 ```
 
-### Issue 3: Spans instead of labels
+### Issue #3: Spans instead of labels
 
 I noticed that in the inputs for the form, the breed inputs would use labels while the inputs for name, email, username, etc used span.
 
@@ -127,5 +127,7 @@ updated code:
               name="name"
             />
 ```
+
+### Conclusion:
 
 In conclusion, we should always review the elements we use and check for any missing components to ensure proper functionality. This practice also helps accommodate users navigating with assistive technologies, promoting a more inclusive and accessible experience.
