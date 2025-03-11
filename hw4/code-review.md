@@ -106,6 +106,8 @@ I noticed that in the inputs for the form, the breed inputs would use labels whi
 
 this is an isuse because without proper label elements , some screen readers may not correctly announce the purpose of the input field. using <label> makes it explicit and is helpful for people navigating with assisitive technologies. this issue can be resolved by swtiching the element types from <span class> to <label for>
 
+initial code:
+
 ```html
 <span class="form-label">Name</span>
 <input
@@ -117,6 +119,8 @@ this is an isuse because without proper label elements , some screen readers may
 />
 ```
 
+updated code:
+
 ```html
 <label for="form-label">Name</span>
 <input
@@ -127,3 +131,5 @@ this is an isuse because without proper label elements , some screen readers may
               name="name"
             />
 ```
+
+In conclusion, we should always review the elements we use and check for any missing components to ensure proper functionality. This practice also helps accommodate users navigating with assistive technologies, promoting a more inclusive and accessible experience.
