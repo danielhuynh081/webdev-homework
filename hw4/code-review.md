@@ -1,6 +1,4 @@
-## Code Review Exercise
-
-### Daniel Huynh, CS463, March 10th, 2025, Caterina Paun.
+## Code Review Exercise - Daniel Huynh
 
 ### Issue #1: Wrong Class For Buttons
 
