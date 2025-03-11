@@ -1,9 +1,5 @@
 ## Code Review Exercise
 
-Write your code review here in markdown format.
-
-## Code Review Example
-
 ### Issue #1: Wrong Class For Buttons
 
 The issue is the "more info" button is created using an anchor (<a>) tag instead of a proper button element. if i remember correctly I think we were told every button on a website needs to be a button class. It can cause accessibility issues and may not behave the same for all devices. I also thought it should have an aria tag for screen readers.
