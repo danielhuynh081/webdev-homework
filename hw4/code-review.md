@@ -128,6 +128,42 @@ updated code:
             />
 ```
 
+### Issue #4: CSS Background Color Duplicate
+
+In line 109 of the CSS file, for the close-popup-button there are two elements that change the background color.
+this is an issue because the second eement overwrites the first one so theres no point in having the first one.
+
+initial code:
+
+```css
+.close-popup-button {
+  font-size: 2rem;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+}
+```
+
+```css
+.close-popup-button {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+}
+```
+
 ### Conclusion:
 
 In conclusion, we should always review the elements we use and check for any missing components to ensure proper functionality. This practice also helps accommodate users navigating with assistive technologies, promoting a more inclusive and accessible experience.
